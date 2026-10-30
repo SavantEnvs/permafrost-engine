@@ -1,0 +1,5 @@
+color vec3 255.000000 255.000000 255.000000
+constructor_arguments int 3
+vision_range float 35.0
+cls string Deer
+pos vec2 1.5 -2.5

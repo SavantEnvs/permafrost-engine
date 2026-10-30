@@ -1,0 +1,7 @@
+position vec3 -68.751884 0.000000 -119.765442
+scale vec3 2.000000 2.000000 2.000000
+rotation quat 0.000000 0.000000 0.000000 1.000000
+animated bool 1
+faction_id int 0
+idle_clip string Idle
+selection_radius float 3.25

@@ -1,0 +1,9 @@
+project: savantenvs/permafrost-engine
+target: fuzz_pfobj
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_pfobj/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_pfobj
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_pfobj/fuzz_pfobj.dict

@@ -1,0 +1,9 @@
+project: savantenvs/permafrost-engine
+target: fuzz_attr
+testsuite:
+  - https://$MAYHEM_DOMAIN/$MAYHEM_PROJECT/$MAYHEM_TARGET/testsuite.tar
+  - file://mayhem/fuzz_attr/testsuite
+cmds:
+  - cmd: /mayhem/fuzz_attr
+    libfuzzer: true
+    dictionary: /mayhem/mayhem/fuzz_attr/fuzz_attr.dict
